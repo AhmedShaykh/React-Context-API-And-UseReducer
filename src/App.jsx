@@ -12,9 +12,9 @@ function App() {
         >
       <div className="App">
         <h1>
-          Learning React Context API
+          Learning React Hooks (Context API & UseReducer)
         </h1>
-        <Parent name="Ahmed" />
+        <Parent name="Counter Context" />
       </div>
     </CounterContext.Provider>
   );
