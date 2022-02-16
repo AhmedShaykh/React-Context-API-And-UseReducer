@@ -6,10 +6,9 @@ import './App.css';
 function App() {
   let countState = useState(1); // [count , setCount]
   return (
-    <CounterContext.Provider 
-    // value={25}
-    value={countState}
-        >
+    <CounterContext.Provider
+      value={countState}
+    >
       <div className="App">
         <h1>
           Learning React Hooks (Context API & UseReducer)
