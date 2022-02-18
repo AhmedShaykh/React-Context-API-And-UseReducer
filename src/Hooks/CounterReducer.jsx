@@ -2,9 +2,9 @@ import React from 'react';
 
 const CounterReducer = (state, action) => {
     switch (action) {
-        case 'INCREAMENT':
+        case 'INCREMENT':
             return state + 1;
-        case 'DECREAMENT':
+        case 'DECREMENT':
             return state - 1
     }
 }

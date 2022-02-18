@@ -9,9 +9,9 @@ const Child = (Props) => {
         <h1>This Is Context API</h1>
         <h2>This Is {Props.name}</h2>
         <h2>Counter Value Is : {counterValue[0]}</h2>
-        <button onClick={() => {counterValue[1](++counterValue[0])} }>Increament Context</button>
+        <button onClick={() => {counterValue[1](++counterValue[0])} }>Increment Context</button>
         <br />
-        <button onClick={() => {counterValue[1](--counterValue[0])} }>Decreament Context</button>
+        <button onClick={() => {counterValue[1](--counterValue[0])} }>Decrement Context</button>
       </div>
     );
   }

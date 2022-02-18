@@ -12,12 +12,12 @@ const ChildReducer = () => {
             <h2>
                 Value Of Reducer State Is : {state}
             </h2>
-            <button onClick={() => dispatch('INCREAMENT')}>
-                Increament Reducer
+            <button onClick={() => dispatch('INCREMENT')}>
+                Increment Reducer
             </button>
             <br />
-            <button onClick={() => dispatch('DECREAMENT')}>
-                Decreament Reducer
+            <button onClick={() => dispatch('DECREMENT')}>
+                Decrement Reducer
             </button>
         </div>
     );
