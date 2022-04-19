@@ -1,15 +1,12 @@
 import React from 'react';
 import Child from './Child';
-import ChildReducer from './ChildReducer';
 
-const Parent =(Props) => {
-    return (
-      <div>
-        <Child name={Props.name}/>
-        <hr />
-        <ChildReducer />
-      </div>
-    );
-  }
-  
+const Parent = (Props) => {
+  return (
+    <div>
+      <Child name={Props.name} />
+    </div>
+  );
+}
+
 export default Parent;
