@@ -12,7 +12,7 @@ function App() {
     >
       <div className="App">
         <h1>
-          Learning React Hooks (Context API & UseReducer)
+          React Hooks (Context API & UseReducer)
         </h1>
         <Parent name="Counter Context" />
         <hr />
