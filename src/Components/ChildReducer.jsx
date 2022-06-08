@@ -7,10 +7,10 @@ const ChildReducer = () => {
     return (
         <div>
             <h1>
-                Learning React Counter UseReducer
+                Learning React UseReducer
             </h1>
             <h2>
-                Value Of Reducer State Is : {state}
+                Value Of Reducer Is : {state}
             </h2>
             <button onClick={() => dispatch('INCREMENT')}>
                 Increment Reducer
