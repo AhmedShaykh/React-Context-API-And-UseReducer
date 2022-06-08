@@ -7,7 +7,7 @@ const ChildReducer = () => {
     return (
         <div>
             <h1>
-                This Is Counter UseReducer
+                Learning React Counter UseReducer
             </h1>
             <h2>
                 Value Of Reducer State Is : {state}
